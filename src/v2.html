@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Data Quality</title>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/http.dev.js"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script>
+      System.config({
+        packages: {'app': {defaultExtension: 'js'}}
+      });
+      System.import('app/components/DataCleansing/DataCleansing');
+    </script>
+    <link rel="stylesheet" href="app/styles/main.css">
+    <link rel="stylesheet" href="app/styles/vendor.css">
+  </head>
+  
+  <body >
+   <div class="container">
+       <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+               <img src="app/images/telstra.jpg" class="img-responsive">
+            </div>
+            <div class="row">
+                <div class="nav navbar-nav">
+                    <a class="navbar-brand" ui-sref="welcome">&nbsp; NRG Migration &nbsp;</a>
+                </div>
+                <div>
+                  <ul class="nav navbar-nav">
+                    <li><a href="https://migration.security.melbourneit.com.au/#/scope">Scope</a></li>
+                    <li><a href="https://migration.security.melbourneit.com.au/#/extractPreview" >Extract</a></li>
+                    <li><a href="" onclick="window.open('https://migration.security.melbourneit.com.au/swagger', '_blank');">Developer API</a>
+                    <li><a href="https://migration.security.melbourneit.com.au/#/exclusions" >Exclusions</a></li>
+                    <li><a href="https://migration.security.melbourneit.com.au/#/migrated" >Migrated</a></li>
+                    <li><a href="">Data Quality</a></li>
+                    
+                  </ul>
+                </div>
+            <div>
+    </nav>
+ </div>
+    
+    <!--Content-->
+    <div class="container" >
+       <data-cleansing/> 
+    </div>
+</body>
+
+</html>
+
+

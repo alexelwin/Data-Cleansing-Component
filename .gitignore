@@ -1,0 +1,12 @@
+node_modules
+src/app/components/DataCleansing/AppSettings.js
+src/app/components/DataCleansing/AppSettings.js.map
+src/app/components/DataCleansing/core/DataQualityEntity.js
+src/app/components/DataCleansing/core/DataQualityEntity.js.map
+src/app/components/DataCleansing/core/DataQualityResult.js
+*.map
+src/app/components/DataCleansing/core/ISerializable.js
+src/app/components/DataCleansing/DataCleansing.js
+src/app/components/DataCleansing/service/QualityService.js
+src/app/components/DataCleansing/service/Service.js
+src/app/components/grid/grid.js
